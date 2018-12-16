@@ -1,0 +1,34 @@
+{
+  "name": "octokit-pinned-issues",
+  "version": "0.0.0-development",
+  "description": "Octokit plugin to manage pinned issues for a repository",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc report --reporter=html && open coverage/index.html",
+    "coverage:upload": "nyc report --reporter=text-lcov | coveralls",
+    "test": "tap --coverage 'test/**/*-test.js'"
+  },
+  "keywords": [
+    "github",
+    "octokit",
+    "plugin",
+    "pinned",
+    "issues"
+  ],
+  "author": "Gregor Martynus (https://github.com/gr2m)",
+  "license": "MIT",
+  "devDependencies": {
+    "@octokit/rest": "^16.0.1",
+    "coveralls": "^3.0.2",
+    "tap": "^12.1.0",
+    "semantic-release": "^15.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gr2m/octokit-pinned-issues.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gr2m/octokit-pinned-issues/issues"
+  },
+  "homepage": "https://github.com/gr2m/octokit-pinned-issues#readme"
+}
