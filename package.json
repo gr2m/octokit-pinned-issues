@@ -23,12 +23,5 @@
     "tap": "^14.0.0",
     "semantic-release": "^17.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gr2m/octokit-pinned-issues.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gr2m/octokit-pinned-issues/issues"
-  },
-  "homepage": "https://github.com/gr2m/octokit-pinned-issues#readme"
+  "repository": "github:gr2m/octokit-pinned-issues"
 }
