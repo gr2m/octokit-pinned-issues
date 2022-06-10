@@ -21,7 +21,7 @@
     "@octokit/rest": "^16.18.0",
     "coveralls": "^3.0.2",
     "tap": "^14.0.0",
-    "semantic-release": "^17.0.0"
+    "semantic-release": "^19.0.3"
   },
   "repository": "github:gr2m/octokit-pinned-issues"
 }
