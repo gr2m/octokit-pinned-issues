@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "coverage": "nyc report --reporter=html && open coverage/index.html",
-    "coverage:upload": "nyc report --reporter=text-lcov | coveralls",
-    "test": "tap --coverage 'test/**/*-test.js'"
+    "test": "tap --100 'test/**/*-test.js'"
   },
   "keywords": [
     "github",
@@ -19,9 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "@octokit/rest": "^16.18.0",
-    "coveralls": "^3.0.2",
-    "tap": "^14.0.0",
-    "semantic-release": "^19.0.3"
+    "tap": "^16.3.3"
   },
   "repository": "github:gr2m/octokit-pinned-issues"
 }
